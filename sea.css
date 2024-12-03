@@ -1,0 +1,311 @@
+*{margin: 0;
+padding: 0%;}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(hero-bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+filter: brightness(80%);
+}
+
+
+
+    .header-content{
+        margin-bottom: 150px;
+        color: white;
+        text-align: center;
+
+    }
+    .t1{
+        font-size: 5vmin;
+    }
+    .t2{
+        width: 150px;
+        height: 4px;
+        background-color: red;
+        margin: 10px auto;
+        border-radius: 30px;
+    }
+    .t3{
+        font-size: 12vmin;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    .t4{
+        padding: 8px 15px;
+        background: rgb(220, 8, 114);
+        border-radius: 30px;
+        color: aliceblue;
+    }
+    .B1{
+        padding: 8px 15px;
+        background: rgb(220, 8, 114);
+        border-radius: 30px;
+        color: aliceblue;
+        position: absolute;
+        margin-left: 850px;
+        
+
+    }
+    
+    
+    .hamza {
+        font-size: 30px;
+        margin-left: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .navbar-nav{
+        margin-left: 320px;
+        font-size: 13px;
+        font-weight: bolder;
+        
+    }
+    .nav-item{
+        margin-left: 30px;
+    }
+    section{
+        width: 80%;
+        margin: 80px auto;
+    }
+    .title{
+        text-align: center;
+        font-size: 7vmin;
+        font-weight: bolder;
+
+    }
+    .line{
+        width: 150px;
+        height: 4px;
+        background-color: red;
+        margin: 10px auto;
+        border-radius: 30px;
+        
+    }
+    
+    
+    .row{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .row .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ak1{
+        font-size: 4vmin;
+        font-weight: bold;
+        margin-top: 30px;
+
+    }
+    .ak2{
+        font-size: 2.4vmin;
+    }
+    .ak3{
+        padding: 8px 15px;
+        background: rgb(220, 8, 114);
+        border-radius: 30px;
+        color: aliceblue;
+
+    }
+    .ali{
+        background-color: gainsboro;
+        margin-top: 50px;
+
+    }
+    .hina{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(services-2.jpg);
+        background-position: bottom;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    filter: brightness(80%);
+        
+    }
+    .hina1{
+        margin-bottom: 150px;
+        color: white;
+        text-align: center;
+       
+    }
+    .j1{
+        font-size: 7vmin;
+        font-weight: bolder;
+        
+    }
+    .j2{
+        width: 60px;
+        height: 4px;
+        background-color: red;
+        margin-left: 75px;
+        margin-top: 20px;
+        border-radius: 30px;
+        margin-left: -280px;
+    }
+    .j3{
+        font-size: 2.3vmin;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+        margin-left: 70px   ;
+    }
+    .j4{
+        padding: 8px 15px;
+        background: rgb(220, 8, 114);
+        border-radius: 30px;
+        color: aliceblue;
+        
+    }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center images */
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    
+    height: auto; /* Maintain aspect ratio */
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    object-fit: cover; /* Crop the image to cover the area */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+.site-footer {
+    background-color: var(--ast-global-color-2);
+    background-image: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+   
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    @media (max-width: 850px) {
+        .row{
+            flex-direction: column;
+        }
+         .col img{
+            max-width: 90%;
+         }
+         .row .col{
+            margin: 20px auto;
+
+         }
+         .ali{
+            flex-direction: column;
+            
+         }
+         .col  ali2{
+            max-width: 90%;
+         }
+         .row .col{
+            margin: 20px auto;}
+            
+            .hina-Content{
+                width: 100%;
+                
+
+            }
+        
+            
+
+
+
+
+
+    }
+
+
+
+    
+    
+    
+    
+    
+    
+    
+   
+
+    
+    
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

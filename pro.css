@@ -1,0 +1,156 @@
+*{margin: 0;
+    padding: 0%;}
+    header{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(about-bg-5.jpg);
+        background-position: bottom;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    filter: brightness(80%);
+    }
+    
+    
+    
+        .header-content{
+            margin-bottom: 150px;
+            color: white;
+            text-align: center;
+    
+        }
+        .t1{
+            font-size: 5vmin;
+        }
+        .t2{
+            width: 150px;
+            height: 4px;
+            background-color: red;
+            margin: 10px auto;
+            border-radius: 30px;
+        }
+        .t3{
+            font-size: 12vmin;
+            margin-top: -30px;
+            margin-bottom: 30px;
+            font-weight: bolder;
+        }
+        .t4{
+            padding: 8px 15px;
+            background: rgb(220, 8, 114);
+            border-radius: 30px;
+            color: aliceblue;
+        }
+        .B1{
+            padding: 8px 15px;
+            background: rgb(220, 8, 114);
+            border-radius: 30px;
+            color: aliceblue;
+            position: absolute;
+            margin-left: 850px;
+            
+    
+        }
+        
+        
+        .hamza {
+            font-size: 30px;
+            margin-left: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .navbar-nav{
+            margin-left: 320px;
+            font-size: 13px;
+            font-weight: bolder;
+            
+        }
+        .nav-item{
+            margin-left: 30px;
+        }
+        section{
+            width: 80%;
+            margin: 80px auto;
+        }
+        .title{
+            text-align: center;
+            font-size: 7vmin;
+            font-weight: bolder;
+    
+        }
+        .line{
+            width: 150px;
+            height: 4px;
+            background-color: red;
+            margin: 10px auto;
+            border-radius: 30px;
+            
+        }
+        * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.site-footer {
+    background-color: var(--ast-global-color-2);
+    background-image: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
